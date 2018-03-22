@@ -302,6 +302,21 @@ header.masthead p {
   }
 }
 
+.youtube-video
+{
+  height: 25vh;
+  width: 75vw;
+}
+
+@media (min-width: 768px)
+{
+  .youtube-video
+  {
+    height: 50vh;
+    width: 50vw;
+  }
+}
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
   top: 50%;
