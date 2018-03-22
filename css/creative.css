@@ -1,3 +1,14 @@
+/*@font-face {
+    font-family: 'Julius Sans One';
+    src: url('fonts/JuliusSansOne-Regular.ttf') format("truetype");
+}*/
+
+@font-face {
+    font-family: 'Serenity Light';
+    font-weight: light;
+    src: url('../fonts/SerenityLight.otf') format("opentype");
+}
+
 body,
 html {
   width: 100%;
@@ -12,7 +23,8 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  /*border-color: #F05F40;*/
+  border-color: #E0bd15;
 }
 
 hr.light {
@@ -36,7 +48,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Julius Sans One', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1
+{
+  color: #e0bd15;
+}
+
+h2
+{
+  font-family: 'Serenity Light';
+  font-size: 2.4rem;
 }
 
 .bg-primary {
@@ -83,7 +106,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: transparent;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -106,7 +129,8 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  /*color: #212529;*/
+  color: white;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
@@ -149,7 +173,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
+    background-color: transparent;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #F05F40;
