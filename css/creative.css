@@ -269,12 +269,36 @@ header.masthead p {
   width: 100%;
   height: 100%;
   text-align: center;
-  opacity: 0.75;
+  opacity: 0;
   color: #fff;
   background: rgba(0, 0, 0, 0.9);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
+}
+
+@media (min-width: 768px)
+{
+  .portfolio-box .portfolio-box-caption
+  {
+    opacity: 0.75;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .portfolio-box .portfolio-box-caption
+  {
+    opacity: 0.75;
+  }
+}
+
+@media (min-width: 1200px)
+{
+  .portfolio-box .portfolio-box-caption
+  {
+    opacity: 0.75;
+  }
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
